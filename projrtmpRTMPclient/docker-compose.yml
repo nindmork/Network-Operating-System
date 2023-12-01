@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  projrtmprtmpclient:
+    image: projrtmprtmpclient
+    build:
+      context: .
+      dockerfile: ./Dockerfile
